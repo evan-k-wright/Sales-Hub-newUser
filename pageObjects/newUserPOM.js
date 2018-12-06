@@ -9,5 +9,10 @@ module.exports = {
             password: 'input[placeHolder="Password"]',
             salesHub: 'div[class="current-app"]',
             username: 'input[placeHolder="Username"]',
+            
+        //new user
+            user: 'a[href="/employees"]',
+            userTitle: 'h1',
+
     }
 }
