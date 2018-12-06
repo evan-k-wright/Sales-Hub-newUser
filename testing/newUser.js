@@ -36,5 +36,8 @@ module.exports = {
                 .setValue('@lastName', data.lastName)
                 .setValue('@mobilePhone', data.mobilePhone)
                 .setValue('@userPassword', data.userPassword)
+                .waitForElementVisible('@active', 5000)
+                .click('@active')
+                
     }
 }
