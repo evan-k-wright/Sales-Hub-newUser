@@ -22,6 +22,13 @@ module.exports = {
             //new user
                 .waitForElementVisible('@user', 5000)
                 .click('@user')
-                .waitForElementVisible('@userTitle', 5000)
+                .waitForElementVisible('@addUser', 5000)
+                .click('@addUser')
+                .waitForElementVisible('@email', 5000)
+                .waitForElementVisible('@firstName', 5000)
+                .waitForElementVisible('@nickname', 5000)
+                .waitForElementVisible('@lastName', 5000)
+                .waitForElementVisible('@mobilePhone', 5000)
+                .waitForElementVisible('@password', 5000)
     }
 }

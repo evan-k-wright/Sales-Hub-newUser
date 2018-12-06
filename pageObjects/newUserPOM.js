@@ -11,8 +11,15 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
             
         //new user
+            addUser: 'a[href="/employees/add"]',
+            email: 'input[name="email"]',
+            firstName: 'input[name="first_name"]',
+            lastName: 'input[name="last_name"]',
+            mobilePhone: 'input[name="mobile_phone"]',
+            newUserTitle: 'h1',
+            nickname: 'input[name="alias"]',
+            password: 'input[name="password"]',
             user: 'a[href="/employees"]',
-            userTitle: 'h1',
 
     }
 }

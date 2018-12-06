@@ -5,9 +5,9 @@
 
   <testsuite name="newUser"
     errors="1" failures="0" hostname="" id="" package="newUser" skipped="0"
-    tests="1" time="0.01200" timestamp="Thu, 06 Dec 2018 21:16:09 GMT">
+    tests="1" time="0.01000" timestamp="Thu, 06 Dec 2018 21:33:00 GMT">
   
-    <testcase name="New User" classname="newUser" time="0.01200" assertions="0">
+    <testcase name="New User" classname="newUser" time="0.01000" assertions="0">
     </testcase>
   
 
@@ -15,7 +15,7 @@
     <system-err>
         Error while running [New User / New User]:
 
-  Error: userTitle was not found in &#34;newUserPOM&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,user,usersTitle
+  Error: userTitle was not found in &#34;newUserPOM&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,addUser,email,firstName,lastName,mobilePhone,newUserTitle,nickname,user
     at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
     at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
     at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUser.js:25:18)
