@@ -18,11 +18,18 @@ module.exports = {
             firstName: 'input[name="first_name"]',
             lastName: 'input[name="last_name"]',
             mobilePhone: 'input[name="mobile_phone"]',
+            nextPage: 'a[href="/employees?page=2"]',
             newUserTitle: 'h1',
             nickname: 'input[name="alias"]',
             save: 'button[type="submit"]',
             userPassword: 'input[name="password"]',
             user: 'a[href="/employees"]',
+
+            //xpath
+                testing: {
+                    selector: '//a[.="Testing"]',
+                    locateStrategy: 'xpath'
+                },
 
     }
 }

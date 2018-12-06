@@ -38,6 +38,10 @@ module.exports = {
                 .setValue('@userPassword', data.userPassword)
                 .waitForElementVisible('@active', 5000)
                 .click('@active')
-                
+                .waitForElementVisible('@admin', 5000)
+                .click('@admin')
+                .waitForElementVisible('@save', 5000)
+                .click('@save')
+                .waitForElementPresent('@testing', 5000)
     }
 }
