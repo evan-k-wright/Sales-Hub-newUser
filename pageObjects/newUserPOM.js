@@ -18,7 +18,7 @@ module.exports = {
             mobilePhone: 'input[name="mobile_phone"]',
             newUserTitle: 'h1',
             nickname: 'input[name="alias"]',
-            password: 'input[name="password"]',
+            userPassword: 'input[name="password"]',
             user: 'a[href="/employees"]',
 
     }

@@ -10,5 +10,5 @@ module.exports = {
         lastName: 'Saleshub',
         mobilePhone: '000-000-0000',
         nickname: 'TS',
-        password: 'testSH',
+        userPassword: 'testSH',
 }

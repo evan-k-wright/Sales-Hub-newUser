@@ -29,6 +29,12 @@ module.exports = {
                 .waitForElementVisible('@nickname', 5000)
                 .waitForElementVisible('@lastName', 5000)
                 .waitForElementVisible('@mobilePhone', 5000)
-                .waitForElementVisible('@password', 5000)
+                .waitForElementVisible('@userPassword', 5000)
+                .setValue('@email', data.email)
+                .setValue('@firstName', data.firstName)
+                .setValue('@nickname', data.nickname)
+                .setValue('@lastName', data.lastName)
+                .setValue('@mobilePhone', data.mobilePhone)
+                .setValue('@userPassword', data.userPassword)
     }
 }
