@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        browser
     },
 
     'New User': (browser) => {
@@ -38,10 +38,13 @@ module.exports = {
                 .setValue('@userPassword', data.userPassword)
                 .waitForElementVisible('@active', 5000)
                 .click('@active')
-                .waitForElementVisible('@admin', 5000)
-                .click('@admin')
+                //.api.moveTo('@admin', 0, 0)
+                //.waitForElementVisible('@admin', 5000)
+                //.click('@admin')
                 .waitForElementVisible('@save', 5000)
                 .click('@save')
+                .api.moveTo('@nextPage', 0, 0)
+                newUserPOM.click('@nextPage')
                 .waitForElementPresent('@testing', 5000)
     }
 }
