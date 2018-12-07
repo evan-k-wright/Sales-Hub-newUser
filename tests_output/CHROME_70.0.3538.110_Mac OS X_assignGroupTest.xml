@@ -5,9 +5,9 @@
 
   <testsuite name="assignGroupTest"
     errors="1" failures="0" hostname="" id="" package="assignGroupTest" skipped="0"
-    tests="1" time="7.450" timestamp="Fri, 07 Dec 2018 18:57:53 GMT">
+    tests="1" time="6.842" timestamp="Fri, 07 Dec 2018 19:01:48 GMT">
   
-    <testcase name="Assign Group" classname="assignGroupTest" time="7.450" assertions="7">
+    <testcase name="Assign Group" classname="assignGroupTest" time="6.842" assertions="7">
 
     
 

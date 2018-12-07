@@ -28,7 +28,7 @@ module.exports = {
                 //     console.log('I should have moved')
                 //     browser.pause(5000)
                 //  })
-                .api.moveToElement('@assignGroup', 0 ,0)
+                .api.moveTo('@assignGroup', 0 ,0)
                 //.waitForElementVisible('@assignGroup', 5000)
     }
 }
