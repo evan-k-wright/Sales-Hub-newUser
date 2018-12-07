@@ -11,6 +11,12 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //edit user
-            
+            user: 'a[href="/employees"]',
+
+            //xpath
+                AAA: {
+                    selector: '//a[.="AAA Saleshub"]',
+                    locateStrategy: 'xpath'
+                },
     }
 }

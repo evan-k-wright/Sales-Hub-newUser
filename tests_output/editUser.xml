@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="newUser"
-    errors="0" failures="0" hostname="" id="" package="newUser" skipped="0"
+  <testsuite name="editUser"
+    errors="0" failures="0" hostname="" id="" package="editUser" skipped="0"
     tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 17:28:28 GMT">
   
 
