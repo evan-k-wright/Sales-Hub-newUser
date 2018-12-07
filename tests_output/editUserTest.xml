@@ -5,9 +5,9 @@
 
   <testsuite name="editUserTest"
     errors="1" failures="0" hostname="" id="" package="editUserTest" skipped="0"
-    tests="1" time="0.01200" timestamp="Fri, 07 Dec 2018 20:40:03 GMT">
+    tests="1" time="0.01100" timestamp="Fri, 07 Dec 2018 20:47:08 GMT">
   
-    <testcase name="Edit User" classname="editUserTest" time="0.01200" assertions="0">
+    <testcase name="Edit User" classname="editUserTest" time="0.01100" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Edit User Test / Edit User]:
 
-  TypeError: editUser.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).clearValue(...).clearValue(...).setValue(...).setValue(...).setValue(...).api.useXpth is not a function
-    at Object.Edit User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editUserTest.js:37:18)
+  TypeError: editUser.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).click(...).api.useXpth is not a function
+    at Object.Edit User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editUserTest.js:31:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
