@@ -2,7 +2,6 @@ module.exports = {
     url: 'http://admin.salesos.info/users/login',
     elements: {
         //login
-            addGroup: 'input[type="submit"]',
             canvassApp: 'a[class="enabled app-canvass"]',
             canvass: 'div[class="current-app"]',
             companyURL: 'input[placeHolder="Company URL"]',
@@ -13,6 +12,7 @@ module.exports = {
             user: 'a[href="/employees"]',
 
         //assign group
+            addGroup: 'input[type="submit"]',
 
             //xpath
                 AAA333: {
