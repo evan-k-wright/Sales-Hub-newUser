@@ -10,7 +10,8 @@ module.exports = {
             user: 'a[href="/employees"]',
 
         //edit group
-
+            admin: 'input[name="admin"]',
+            
 
                 //xpath
                     AAA333: {

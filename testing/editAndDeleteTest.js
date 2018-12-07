@@ -28,5 +28,7 @@ module.exports = {
                 .moveToElement('//a[.="Manage assigned groups"]', 0, 0)
                 editAndDelete.click('@assignGroup')
                 .waitForElementVisible('@layton', 5000)
+                .click('@layton')
+                
     }
 }
