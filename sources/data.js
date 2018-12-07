@@ -13,7 +13,7 @@ module.exports = {
         userPassword: 'testSH',
 
     //edit user
-        editFirstName: 'AAA Test',
+        editFirstName: 'AAA 333',
         editLastName: 'Canvass',
         editUserPassword: 'testCan',
 
