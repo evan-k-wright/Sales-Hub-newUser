@@ -1,5 +1,4 @@
 const data = require('../sources/data')
-const selectors = require('../sources/selectors')
 
 module.exports = {
     after: browser => {
