@@ -9,6 +9,7 @@ module.exports = {
             password: 'input[placeHolder="Password"]',
             salesHub: 'div[class="current-app"]',
             username: 'input[placeHolder="Username"]',
+            user: 'a[href="/employees"]',
 
         //assign group
             assignGroup: 'a[href="/employees/groups/6233"]',
