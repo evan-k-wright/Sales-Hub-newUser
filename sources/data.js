@@ -11,4 +11,7 @@ module.exports = {
         mobilePhone: '000-000-0000',
         nickname: 'Tripple A',
         userPassword: 'testSH',
+
+    //edit user
+        
 }
