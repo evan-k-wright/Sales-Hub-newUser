@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="0">
 
   <testsuite name="assignGroupTest"
     errors="0" failures="0" hostname="" id="" package="assignGroupTest" skipped="0"
-    tests="1" time="8.975" timestamp="Fri, 07 Dec 2018 20:17:32 GMT">
-  
-    <testcase name="Assign Group" classname="assignGroupTest" time="8.975" assertions="8">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
+    tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 20:27:50 GMT">
   
 
   

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
-            tests="0">
+            tests="1">
 
   <testsuite name="editUserTest"
-    errors="0" failures="0" hostname="" id="" package="editUserTest" skipped="0"
-    tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 20:14:18 GMT">
+    errors="1" failures="0" hostname="" id="" package="editUserTest" skipped="0"
+    tests="1" time="0.01200" timestamp="Fri, 07 Dec 2018 20:30:28 GMT">
+  
+    <testcase name="Edit User" classname="editUserTest" time="0.01200" assertions="0">
+    </testcase>
   
 
   
     <system-err>
-        Error while running [Assign Group Test / Assign Group]:
+        Error while running [Edit User Test / Edit User]:
 
-  TypeError: assignGroup.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).useXpath is not a function
-    at Object.Assign Group (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/assignGroupTest.js:31:18)
+  TypeError: editUser.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).clearValue(...).clearValue(...).setValue(...).setValue(...).setValue(...).click(...).api.useXpth is not a function
+    at Object.Edit User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editUserTest.js:38:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
