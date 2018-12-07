@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: (browser) => {
-        browser.end()
+        browser
     },
 
     'Assign Group': browser => {
@@ -24,6 +24,11 @@ module.exports = {
                 .click('@user')
                 .waitForElementVisible('@AAA333', 5000)
                 .click('@AAA333')
-                .waitForElementVisible('@assignGroup', 5000)
+                // browser.moveTo('@assignGroup', ()=>{
+                //     console.log('I should have moved')
+                //     browser.pause(5000)
+                //  })
+                .api.moveToElement('@assignGroup', 0 ,0)
+                //.waitForElementVisible('@assignGroup', 5000)
     }
 }

@@ -12,11 +12,15 @@ module.exports = {
             user: 'a[href="/employees"]',
 
         //assign group
-            assignGroup: 'a[href="/employees/groups/6233"]',
 
             //xpath
                 AAA333: {
                     selector: '//a[.="AAA 333 Canvass"]',
+                    locateStrategy: 'xpath'
+                },
+
+                assignGroup: {
+                    selector: '//a[.="Manage assigned groups"]',
                     locateStrategy: 'xpath'
                 },
     }
