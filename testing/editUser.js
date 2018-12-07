@@ -35,6 +35,6 @@ editUser.navigate()
             .setValue('@lastName', data.editLastName)
             .setValue('@userPassword', data.editUserPassword)
             .click('@save')
-            .waitForElementPresent('@AAATest', 5000)
+            .waitForElementPresent('@AAA333', 5000)
     }
 }

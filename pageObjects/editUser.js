@@ -24,7 +24,7 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
-                AAATest: {
+                AAA333: {
                     selector: '//a[.="AAA 333 Canvass"]',
                     locateStrategy: 'xpath'
                 },

@@ -14,7 +14,6 @@ module.exports = {
             active: 'input[name="active"]',
             admin: 'input[name="admin"]',
             addUser: 'a[href="/employees/add"]',
-            assignGroup: 'a[href="/employees/groups/6233"]',
             email: 'input[name="email"]',
             firstName: 'input[name="first_name"]',
             lastName: 'input[name="last_name"]',
