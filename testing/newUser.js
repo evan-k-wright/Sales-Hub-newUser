@@ -1,4 +1,5 @@
 const data = require('../sources/data')
+const selectors = require('../sources/selectors')
 
 module.exports = {
     after: browser => {
@@ -40,6 +41,9 @@ module.exports = {
                 .click('@active')
                 .click('@save')
                 .waitForElementVisible('@AAA', 5000)
+                .click('@AAA')
+                .moveTo(selectors.AAA)
+                .waitForElementVisible('@admin', 5000)
                 //.click('@admin')
                 // .waitForElementVisible('@save', 5000)
     
