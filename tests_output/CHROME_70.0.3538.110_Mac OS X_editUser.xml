@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="editUser"
-    errors="0" failures="0" hostname="" id="" package="editUser" skipped="0"
-    tests="1" time="8.769" timestamp="Fri, 07 Dec 2018 17:46:36 GMT">
+    errors="0" failures="1" hostname="" id="" package="editUser" skipped="0"
+    tests="1" time="16.36" timestamp="Fri, 07 Dec 2018 17:54:23 GMT">
   
-    <testcase name="Edit User" classname="editUser" time="8.769" assertions="11">
+    <testcase name="Edit User" classname="editUser" time="16.36" assertions="12">
 
     
 
@@ -28,6 +28,8 @@
     
 
     
+
+      <failure message="Timed out while waiting for element &lt;//a[.=&#34;AAATest Canvass&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Edit User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editUser.js:38:14)</failure>
 
     
     </testcase>

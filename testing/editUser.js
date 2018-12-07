@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports ={  
     after: browser => {
-        browser.end()
+        browser
     },
 
 'Edit User': (browser) => {
@@ -29,6 +29,12 @@ editUser.navigate()
             .waitForElementVisible('@changePassword', 5000)
             .click('@changePassword')
             .waitForElementVisible('@userPassword', 5000)
-
+            .clearValue('@firstName')
+            .clearValue('@lastName')
+            .setValue('@firstName', data.editFirstName)
+            .setValue('@lastName', data.editLastName)
+            .setValue('@userPassword', data.editUserPassword)
+            .click('@save')
+            .waitForElementPresent('@AAATest', 5000)
     }
 }
