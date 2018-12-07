@@ -6,12 +6,13 @@ module.exports = {
             loginButton: 'button[type="submit"]', 
             password: 'input[placeHolder="Password"]',
             salesHub: 'div[class="current-app"]',
+            save: 'button[type="submit"]',
             username: 'input[placeHolder="Username"]',
             user: 'a[href="/employees"]',
 
         //edit group
             admin: 'input[name="admin"]',
-            
+
 
                 //xpath
                     AAA333: {
@@ -21,6 +22,11 @@ module.exports = {
 
                     assignGroup: {
                         selector: '//a[.="Manage assigned groups"]',
+                        locateStrategy: 'xpath'
+                    },
+
+                    default: {
+                        selector: '//a[.="Set as default group"]',
                         locateStrategy: 'xpath'
                     },
 
