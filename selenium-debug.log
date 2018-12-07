@@ -1,15 +1,15 @@
-12:01:48.040 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
-12:01:48.044 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
-2018-12-07 12:01:48.205:INFO::main: Logging initialized @457ms to org.seleniumhq.jetty9.util.log.StdErrLog
-12:01:48.372 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
-12:01:48.694 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+13:17:32.364 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
+13:17:32.369 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2018-12-07 13:17:32.568:INFO::main: Logging initialized @522ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:17:32.751 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+13:17:33.098 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
   "browserName": "chrome",
   "javascriptEnabled": true,
   "name": "Assign Group Test"
 }
-12:01:48.696 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5) on port 23212
+13:17:33.100 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5) on port 28254
 Only local connections are allowed.
-12:01:50.139 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
-12:01:50.403 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 23acc81068a9a14954892077e938e78f (org.openqa.selenium.chrome.ChromeDriverService)
+13:17:34.657 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+13:17:34.965 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 6dbdff17a69d1bb66492230a60ca5cdd (org.openqa.selenium.chrome.ChromeDriverService)

@@ -24,11 +24,8 @@ module.exports = {
                 .click('@user')
                 .waitForElementVisible('@AAA333', 5000)
                 .click('@AAA333')
-                // browser.moveTo('@assignGroup', ()=>{
-                //     console.log('I should have moved')
-                //     browser.pause(5000)
-                //  })
-                .api.moveTo('@assignGroup', 0 ,0)
-                //.waitForElementVisible('@assignGroup', 5000)
+                .api.useXpath()
+                .moveToElement('//a[.="Manage assigned groups"]', 0, 0)
+                assignGroup.waitForElementVisible('@assignGroup', 5000)
     }
 }
