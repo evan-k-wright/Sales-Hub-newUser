@@ -2,6 +2,7 @@ module.exports = {
     url: 'http://admin.salesos.info/users/login',
     elements: {
         //login
+            addGroup: 'input[type="submit"]',
             canvassApp: 'a[class="enabled app-canvass"]',
             canvass: 'div[class="current-app"]',
             companyURL: 'input[placeHolder="Company URL"]',
@@ -21,6 +22,11 @@ module.exports = {
 
                 assignGroup: {
                     selector: '//a[.="Manage assigned groups"]',
+                    locateStrategy: 'xpath'
+                },
+
+                layton:{
+                    selector: '//option[.="Layton"]',
                     locateStrategy: 'xpath'
                 },
     }
