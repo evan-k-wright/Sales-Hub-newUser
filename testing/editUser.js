@@ -23,6 +23,5 @@ editUser.navigate()
             .waitForElementVisible('@user', 5000)
             .click('@user')
             .waitForElementVisible('@AAA', 5000)
-            
     }
 }
