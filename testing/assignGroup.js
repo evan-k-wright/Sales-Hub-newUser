@@ -23,7 +23,7 @@ module.exports = {
                 .waitForElementVisible('@user', 5000)
                 .click('@user')
                 .waitForElementVisible('@AAA333', 5000)
-                .click('AAA333')
+                .click('@AAA333')
                 .waitForElementVisible('@assignGroup', 5000)
     }
 }

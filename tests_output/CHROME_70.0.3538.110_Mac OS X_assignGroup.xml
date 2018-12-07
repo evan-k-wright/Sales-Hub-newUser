@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="1">
 
   <testsuite name="assignGroup"
-    errors="1" failures="1" hostname="" id="" package="assignGroup" skipped="0"
-    tests="1" time="12.67" timestamp="Fri, 07 Dec 2018 18:34:05 GMT">
+    errors="0" failures="0" hostname="" id="" package="assignGroup" skipped="0"
+    tests="1" time="7.776" timestamp="Fri, 07 Dec 2018 18:43:58 GMT">
   
-    <testcase name="Assign Group" classname="assignGroup" time="12.67" assertions="8">
+    <testcase name="Assign Group" classname="assignGroup" time="7.776" assertions="7">
 
     
 
@@ -20,27 +20,11 @@
     
 
     
-
-      <failure message="Timed out while waiting for element &lt;a[href=&#34;/employees/groups/6233&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Assign Group (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/assignGroup.js:27:18)</failure>
 
     
     </testcase>
   
 
-  
-    <system-err>
-      ERROR: Unable to locate element: &#34;AAA333&#34; using: css selector
-    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.Assign Group (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/assignGroup.js:26:18)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    </system-err>
   
 
   
