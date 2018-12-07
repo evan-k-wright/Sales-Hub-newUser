@@ -12,7 +12,6 @@ module.exports = {
             
         //new user
             active: 'input[name="active"]',
-            admin: 'input[name="admin"]',
             addUser: 'a[href="/employees/add"]',
             email: 'input[name="email"]',
             firstName: 'input[name="first_name"]',

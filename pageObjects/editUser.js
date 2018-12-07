@@ -11,6 +11,7 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //edit user
+            admin: 'input[name="admin"]',
             changePassword: 'input[name="change_password"]',
             firstName: 'input[name="first_name"]',
             lastName: 'input[name="last_name"]',
