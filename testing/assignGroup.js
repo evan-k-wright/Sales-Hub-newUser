@@ -1,3 +1,5 @@
+const data = require('../sources/data')
+
 module.exports = {
     after: (browser) => {
         browser.end()
@@ -20,5 +22,8 @@ module.exports = {
             //edit user
                 .waitForElementVisible('@user', 5000)
                 .click('@user')
+                .waitForElementVisible('@AAA333', 5000)
+                .click('AAA333')
+                .waitForElementVisible('@assignGroup', 5000)
     }
 }
