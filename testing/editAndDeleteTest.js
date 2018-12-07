@@ -18,5 +18,15 @@ module.exports = {
                 .waitForElementVisible('@loginButton', 5000)
                 .click('@loginButton')
                 .waitForElementVisible('@salesHub', 5000)
+
+            //edit group
+                .waitForElementVisible('@user', 5000)
+                .click('@user')
+                .waitForElementVisible('@AAA333', 5000)
+                .click('@AAA333')
+                .api.useXpath()
+                .moveToElement('//a[.="Manage assigned groups"]', 0, 0)
+                editAndDelete.click('@assignGroup')
+                .waitForElementVisible('@layton', 5000)
     }
 }
