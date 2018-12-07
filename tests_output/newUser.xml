@@ -5,9 +5,9 @@
 
   <testsuite name="newUser"
     errors="1" failures="0" hostname="" id="" package="newUser" skipped="0"
-    tests="1" time="0.01300" timestamp="Fri, 07 Dec 2018 15:29:19 GMT">
+    tests="1" time="0.01800" timestamp="Fri, 07 Dec 2018 16:12:32 GMT">
   
-    <testcase name="New User" classname="newUser" time="0.01300" assertions="0">
+    <testcase name="New User" classname="newUser" time="0.01800" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [New User / New User]:
 
-  TypeError: newUserPOM.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).click(...).elementIdClick is not a function
-    at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUser.js:46:18)
+  TypeError: newUserPOM.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).click(...).waitForElementVisible(...).click(...).moveTo is not a function
+    at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUser.js:45:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
