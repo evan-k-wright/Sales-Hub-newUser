@@ -38,13 +38,11 @@ module.exports = {
                 .setValue('@userPassword', data.userPassword)
                 .waitForElementVisible('@active', 5000)
                 .click('@active')
-                //.api.moveTo('@admin', 0, 0)
+                .click('@save')
+                
                 //.waitForElementVisible('@admin', 5000)
                 //.click('@admin')
-                .waitForElementVisible('@save', 5000)
-                .click('@save')
-                .api.moveTo('@nextPage', 0, 0)
-                newUserPOM.click('@nextPage')
-                .waitForElementPresent('@testing', 5000)
+                // .waitForElementVisible('@save', 5000)
+    
     }
 }

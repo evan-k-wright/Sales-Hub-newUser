@@ -6,9 +6,9 @@ module.exports = {
 
     //new user
         email: 'test@canvass.com',
-        firstName: 'Testing',
+        firstName: 'AAA',
         lastName: 'Saleshub',
         mobilePhone: '000-000-0000',
-        nickname: 'TS',
+        nickname: 'Tripple A',
         userPassword: 'testSH',
 }
