@@ -28,7 +28,7 @@ module.exports = {
 
             //xpath
                 AAA: {
-                    selector: '//a[.="AAA"]',
+                    selector: '//a[.="AAA Saleshub"]',
                     locateStrategy: 'xpath'
                 },
     }

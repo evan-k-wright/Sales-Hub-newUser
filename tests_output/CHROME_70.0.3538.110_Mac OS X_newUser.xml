@@ -5,9 +5,9 @@
 
   <testsuite name="newUser"
     errors="0" failures="1" hostname="" id="" package="newUser" skipped="0"
-    tests="1" time="14.96" timestamp="Fri, 07 Dec 2018 15:29:39 GMT">
+    tests="1" time="15.36" timestamp="Fri, 07 Dec 2018 15:35:56 GMT">
   
-    <testcase name="New User" classname="newUser" time="14.96" assertions="15">
+    <testcase name="New User" classname="newUser" time="15.36" assertions="15">
 
     
 
@@ -35,8 +35,7 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;@testing&gt; to be present for 5000 milliseconds.">    at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUser.js:48:18)
-    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+      <failure message="Timed out while waiting for element &lt;//a[.=&#34;AAA&#34;]&gt; to be present for 5000 milliseconds.">    at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUser.js:42:18)</failure>
 
     
     </testcase>
