@@ -14,10 +14,10 @@ module.exports = {
         //assign group
             assignGroup: 'a[href="/employees/groups/6233"]',
 
-        //xpath
-            AAA333: {
-                selector: '//a[.="AAA 333 Canvass"]',
-                locateStrategy: 'xpath'
-            },
+            //xpath
+                AAA333: {
+                    selector: '//a[.="AAA 333 Canvass"]',
+                    locateStrategy: 'xpath'
+                },
     }
 }

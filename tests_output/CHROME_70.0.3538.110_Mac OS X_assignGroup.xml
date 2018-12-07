@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
-            tests="0">
+<testsuites errors="1"
+            failures="1"
+            tests="1">
 
-  <testsuite name="editUser"
-    errors="0" failures="0" hostname="" id="" package="editUser" skipped="0"
-    tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 18:34:18 GMT">
+  <testsuite name="assignGroup"
+    errors="1" failures="1" hostname="" id="" package="assignGroup" skipped="0"
+    tests="1" time="12.67" timestamp="Fri, 07 Dec 2018 18:34:05 GMT">
+  
+    <testcase name="Assign Group" classname="assignGroup" time="12.67" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;a[href=&#34;/employees/groups/6233&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Assign Group (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/assignGroup.js:27:18)</failure>
+
+    
+    </testcase>
   
 
   
