@@ -23,5 +23,12 @@ editUser.navigate()
             .waitForElementVisible('@user', 5000)
             .click('@user')
             .waitForElementVisible('@AAA', 5000)
+            .click('@AAA')
+            .waitForElementVisible('@firstName', 5000)
+            .waitForElementVisible('@lastName', 5000)
+            .waitForElementVisible('@changePassword', 5000)
+            .click('@changePassword')
+            .waitForElementVisible('@userPassword', 5000)
+
     }
 }

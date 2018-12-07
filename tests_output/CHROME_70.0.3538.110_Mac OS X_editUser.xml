@@ -5,9 +5,17 @@
 
   <testsuite name="editUser"
     errors="0" failures="0" hostname="" id="" package="editUser" skipped="0"
-    tests="1" time="8.978" timestamp="Fri, 07 Dec 2018 17:34:36 GMT">
+    tests="1" time="8.769" timestamp="Fri, 07 Dec 2018 17:46:36 GMT">
   
-    <testcase name="Edit User" classname="editUser" time="8.978" assertions="7">
+    <testcase name="Edit User" classname="editUser" time="8.769" assertions="11">
+
+    
+
+    
+
+    
+
+    
 
     
 

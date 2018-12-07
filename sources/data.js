@@ -13,5 +13,10 @@ module.exports = {
         userPassword: 'testSH',
 
     //edit user
+        editFirstName: 'AAA Test',
+        editLastName: 'Canvass',
+        editUserPassword: 'testCan',
+
+    
         
 }

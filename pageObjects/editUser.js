@@ -11,6 +11,11 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //edit user
+            changePassword: 'input[name="change_password"]',
+            firstName: 'input[name="first_name"]',
+            lastName: 'input[name="last_name"]',
+            save: 'button[type="submit"]',
+            userPassword: 'input[name="password"]',
             user: 'a[href="/employees"]',
 
             //xpath
