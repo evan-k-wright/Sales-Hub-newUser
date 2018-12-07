@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="0">
+            tests="1">
 
   <testsuite name="editUser"
     errors="0" failures="0" hostname="" id="" package="editUser" skipped="0"
-    tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 17:31:31 GMT">
+    tests="1" time="8.978" timestamp="Fri, 07 Dec 2018 17:34:36 GMT">
+  
+    <testcase name="Edit User" classname="editUser" time="8.978" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
 
   

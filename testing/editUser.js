@@ -1,6 +1,6 @@
 const data = require('../sources/data')
 
-module.exporrts ={  
+module.exports ={  
     after: browser => {
         browser.end()
     },

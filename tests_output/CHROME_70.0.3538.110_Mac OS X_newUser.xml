@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="0">
 
   <testsuite name="newUser"
     errors="0" failures="0" hostname="" id="" package="newUser" skipped="0"
-    tests="1" time="10.09" timestamp="Fri, 07 Dec 2018 16:17:30 GMT">
-  
-    <testcase name="New User" classname="newUser" time="10.09" assertions="15">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
+    tests="0" time="0.000" timestamp="Fri, 07 Dec 2018 17:34:45 GMT">
   
 
   
