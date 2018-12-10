@@ -11,7 +11,8 @@ module.exports = {
             user: 'a[href="/employees"]',
 
         //delete user
-
+            deleteUser: 'a[class="delete-item"]',
+            
             //xpath
                 AAA333: {
                     selector: '//a[.="AAA 333 Canvass"]',
