@@ -5,7 +5,7 @@ module.exports = {
         password: 'Dvlop-qa',
 
     //new user
-        email: 'test@canvass.com',
+        email: 'test01@canvass.com',
         firstName: 'AAA',
         lastName: 'Saleshub',
         mobilePhone: '000-000-0000',
