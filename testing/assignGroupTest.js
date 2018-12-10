@@ -2,7 +2,7 @@
 
 // module.exports = {
 //     after: (browser) => {
-//         browser
+//         browser.end()
 //     },
 
 //     'Assign Group': browser => {
