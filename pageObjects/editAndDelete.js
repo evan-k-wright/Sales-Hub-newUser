@@ -13,8 +13,8 @@ module.exports = {
         //edit group
             active: 'input[name="active"]',
             admin: 'input[name="admin"]',
+            cancel: 'a[class="cancel-button"]',
             save: 'button[type="submit"]',
-
 
                 //xpath
                     AAA333: {

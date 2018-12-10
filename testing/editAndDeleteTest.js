@@ -38,9 +38,15 @@ module.exports = {
                 .click('@admin')
                 .click('@active')
                 .click('@active')
+                .click('@cancel')
+                .waitForElementVisible('@layton', 5000)
+                .click('@layton')
+                .click('@admin')
+                .click('@active')
+                .click('@active')
                 .click('@save')
                 .waitForElementVisible('@layton', 5000)
-                
+
                 // .click('@admin')
                 // .click('@save')
                 // .waitForElementVisible('@layton', 5000)               
