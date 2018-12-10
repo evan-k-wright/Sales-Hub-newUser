@@ -14,6 +14,7 @@ module.exports = {
             active: 'input[name="active"]',
             admin: 'input[name="admin"]',
             cancel: 'a[class="cancel-button"]',
+            defaultAlert: 'div[role="alert"]',
             save: 'button[type="submit"]',
 
                 //xpath
