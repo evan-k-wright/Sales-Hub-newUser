@@ -15,6 +15,7 @@ module.exports = {
             admin: 'input[name="admin"]',
             cancel: 'a[class="cancel-button"]',
             defaultAlert: 'div[role="alert"]',
+            groupSavedAlert: 'div[class="alert alert-warning"]',
             save: 'button[type="submit"]',
 
                 //xpath
