@@ -48,8 +48,10 @@ module.exports = {
                 .click('@save')
                 .waitForElementVisible('@layton', 5000)
 
-                // .click('@admin')
-                // .click('@save')
-                // .waitForElementVisible('@layton', 5000)               
+            //delete group
+                .click('@layton')
+                .waitForElementVisible('@remove', 5000)
+                .click('@remove')
+                .waitForElementNotPresent('@Layton', 5000)
     }
 }

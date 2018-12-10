@@ -37,5 +37,14 @@ module.exports = {
                         selector: '//a[.="Layton"]',
                         locateStrategy: 'xpath'
                     },
+
+        //delete group
+            remove: 'a[class="delete-item"]',
+
+            //xpath
+                layton: {
+                    selector: '//a[.="Layton"]',
+                    locateStrategy: 'xpath'
+                },
     }
 }
