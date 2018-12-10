@@ -24,6 +24,10 @@ module.exports = {
                 .click('@user')
                 .waitForElementVisible('@AAA333', 5000)
                 .click('@AAA333')
+                .waitForElementVisible('@deleteUser', 5000)
+                .click('@deleteUser')
+                ,api.acceptAlert()
+                deleteUser.waitForElementNotVisible('@AAA333', 5000)
 
     }
 }

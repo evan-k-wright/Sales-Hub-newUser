@@ -5,17 +5,15 @@
 
   <testsuite name="newUserTest"
     errors="0" failures="0" hostname="" id="" package="newUserTest" skipped="0"
-    tests="0" time="0.000" timestamp="Mon, 10 Dec 2018 17:48:31 GMT">
+    tests="0" time="0.000" timestamp="Mon, 10 Dec 2018 17:54:39 GMT">
   
 
   
     <system-err>
         Error while running [Delete User Test / Delete USer]:
 
-  Error: AAA333 was not found in &#34;deleteUser&#34;. Available elements: companyURL,loginButton,password,salesHub,save,username,user
-    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Delete USer (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/deleteUserTest.js:25:18)
+  TypeError: deleteUser.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).api.accpetAlert is not a function
+    at Object.Delete USer (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/deleteUserTest.js:29:22)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -23,6 +21,8 @@
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
     </system-err>
   
 
