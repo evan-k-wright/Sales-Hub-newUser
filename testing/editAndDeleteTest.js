@@ -31,6 +31,7 @@ module.exports = {
                 .click('@layton')
                 .waitForElementVisible('@default', 5000)
                 .click('@default')
+                .waitForElementVisible('@defaultAlert',5000)
                 .waitForElementVisible('@layton', 5000)
                 .click('@layton')
                 .waitForElementVisible('@admin', 5000)
