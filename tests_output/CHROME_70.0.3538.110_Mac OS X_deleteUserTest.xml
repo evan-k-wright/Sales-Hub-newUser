@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="deleteUserTest"
-    errors="0" failures="0" hostname="" id="" package="deleteUserTest" skipped="0"
-    tests="1" time="8.068" timestamp="Mon, 10 Dec 2018 17:52:20 GMT">
+    errors="0" failures="1" hostname="" id="" package="deleteUserTest" skipped="0"
+    tests="1" time="15.15" timestamp="Mon, 10 Dec 2018 18:00:56 GMT">
   
-    <testcase name="Delete USer" classname="deleteUserTest" time="8.068" assertions="7">
+    <testcase name="Delete USer" classname="deleteUserTest" time="15.15" assertions="9">
 
     
 
@@ -20,6 +20,10 @@
     
 
     
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//a[.=&#34;AAA 333 Canvass&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Delete USer (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/deleteUserTest.js:30:28)</failure>
 
     
     </testcase>

@@ -5,9 +5,9 @@
 
   <testsuite name="deleteUserTest"
     errors="1" failures="0" hostname="" id="" package="deleteUserTest" skipped="0"
-    tests="1" time="0.01200" timestamp="Mon, 10 Dec 2018 17:54:39 GMT">
+    tests="1" time="0.01100" timestamp="Mon, 10 Dec 2018 17:59:33 GMT">
   
-    <testcase name="Delete USer" classname="deleteUserTest" time="0.01200" assertions="0">
+    <testcase name="Delete USer" classname="deleteUserTest" time="0.01100" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Delete User Test / Delete USer]:
 
-  TypeError: deleteUser.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).api.accpetAlert is not a function
-    at Object.Delete USer (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/deleteUserTest.js:29:22)
+  ReferenceError: api is not defined
+    at Object.Delete USer (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/deleteUserTest.js:29:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
