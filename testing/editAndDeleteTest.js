@@ -36,11 +36,10 @@ module.exports = {
                 .click('@active')
                 .click('@active')
                 .click('@default')
-                .waitForElementVisible('@layton')
+                .waitForElementVisible('@layton', 5000)
                 .click('@layton')
                 .click('@admin')
-                .click('save')
-                .waitForElementVisible('@layotn')
-                
+                .click('@save')
+                .waitForElementVisible('@layton', 5000)               
     }
 }
