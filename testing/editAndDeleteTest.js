@@ -52,9 +52,11 @@ module.exports = {
                 editAndDelete.waitForElementVisible('@layton', 5000)
 
             //delete group
-                // .click('@layton')
-                // .waitForElementVisible('@remove', 5000)
-                // .click('@remove')
-                // .waitForElementNotPresent('@layton', 5000)
+                .click('@layton')
+                .waitForElementVisible('@remove', 5000)
+                .click('@remove')
+                .waitForElementNotPresent('@layton', 5000)
+                .api.acceptAlert()
+                .waitForElementNotPresent('@layton', 5000)
     }
 }
