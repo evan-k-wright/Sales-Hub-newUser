@@ -36,8 +36,11 @@ module.exports = {
                 .click('@active')
                 .click('@active')
                 .click('@default')
-                //.api.useXpath()
-                //.expect.element('(//td)[6]').text.to.equals('Yes')
+                .waitForElementVisible('@layton')
+                .click('@layton')
+                .click('@admin')
+                .click('save')
+                .waitForElementVisible('@layotn')
                 
     }
 }
