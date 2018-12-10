@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="0">
 
   <testsuite name="newUserTest"
-    errors="0" failures="1" hostname="" id="" package="newUserTest" skipped="0"
-    tests="1" time="13.55" timestamp="Mon, 10 Dec 2018 18:04:57 GMT">
-  
-    <testcase name="New User" classname="newUserTest" time="13.55" assertions="15">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Timed out while waiting for element &lt;//a[.=&#34;AAA Saleshub&#34;]&gt; to be present for 5000 milliseconds.">    at Object.New User (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/newUserTest.js:42:18)</failure>
-
-    
-    </testcase>
+    errors="0" failures="0" hostname="" id="" package="newUserTest" skipped="0"
+    tests="0" time="0.000" timestamp="Mon, 10 Dec 2018 18:47:09 GMT">
   
 
   

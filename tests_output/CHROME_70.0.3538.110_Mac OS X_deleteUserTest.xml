@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="0">
+            tests="1">
 
   <testsuite name="deleteUserTest"
     errors="0" failures="0" hostname="" id="" package="deleteUserTest" skipped="0"
-    tests="0" time="0.000" timestamp="Mon, 10 Dec 2018 18:04:57 GMT">
+    tests="1" time="8.957" timestamp="Mon, 10 Dec 2018 18:47:00 GMT">
+  
+    <testcase name="Delete USer" classname="deleteUserTest" time="8.957" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
 
   
