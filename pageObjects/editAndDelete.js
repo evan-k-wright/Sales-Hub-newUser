@@ -11,7 +11,9 @@ module.exports = {
             user: 'a[href="/employees"]',
 
         //edit group
+            active: 'input[name="active"]',
             admin: 'input[name="admin"]',
+            save: 'button[type="submit"]',
 
 
                 //xpath

@@ -29,6 +29,15 @@ module.exports = {
                 editAndDelete.click('@assignGroup')
                 .waitForElementVisible('@layton', 5000)
                 .click('@layton')
+                .waitForElementVisible('@admin', 5000)
+                .waitForElementVisible('@active', 5000)
+                .waitForElementVisible('@default', 5000)
+                .click('@admin')
+                .click('@active')
+                .click('@active')
+                .click('@default')
+                //.api.useXpath()
+                //.expect.element('(//td)[6]').text.to.equals('Yes')
                 
     }
 }

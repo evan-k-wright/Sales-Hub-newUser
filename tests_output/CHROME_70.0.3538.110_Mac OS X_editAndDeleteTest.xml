@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="editAndDeleteTest"
-    errors="0" failures="0" hostname="" id="" package="editAndDeleteTest" skipped="0"
-    tests="1" time="9.972" timestamp="Mon, 10 Dec 2018 15:38:54 GMT">
+    errors="0" failures="1" hostname="" id="" package="editAndDeleteTest" skipped="0"
+    tests="1" time="13.96" timestamp="Mon, 10 Dec 2018 16:05:42 GMT">
   
-    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="9.972" assertions="8">
+    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="13.96" assertions="12">
 
     
 
@@ -22,6 +22,15 @@
     
 
     
+
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;(//td)[6]&gt; text to equal: &#34;Yes&#34;">    at Object.Edit And Delete (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editAndDeleteTest.js:40:25)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
 
     
     </testcase>
