@@ -5,9 +5,9 @@
 
   <testsuite name="editAndDeleteTest"
     errors="0" failures="0" hostname="" id="" package="editAndDeleteTest" skipped="0"
-    tests="1" time="8.645" timestamp="Fri, 07 Dec 2018 21:26:42 GMT">
+    tests="1" time="9.972" timestamp="Mon, 10 Dec 2018 15:38:54 GMT">
   
-    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="8.645" assertions="8">
+    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="9.972" assertions="8">
 
     
 
