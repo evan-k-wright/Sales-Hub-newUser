@@ -38,8 +38,8 @@ module.exports = {
                 .click('@default')
                 .waitForElementVisible('@layton', 5000)
                 .click('@layton')
-                .click('@admin')
-                .click('@save')
-                .waitForElementVisible('@layton', 5000)               
+                // .click('@admin')
+                // .click('@save')
+                // .waitForElementVisible('@layton', 5000)               
     }
 }
