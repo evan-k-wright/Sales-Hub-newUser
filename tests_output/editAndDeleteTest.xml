@@ -5,9 +5,9 @@
 
   <testsuite name="editAndDeleteTest"
     errors="1" failures="0" hostname="" id="" package="editAndDeleteTest" skipped="0"
-    tests="1" time="0.01400" timestamp="Mon, 10 Dec 2018 16:15:54 GMT">
+    tests="1" time="0.01600" timestamp="Mon, 10 Dec 2018 17:05:38 GMT">
   
-    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="0.01400" assertions="0">
+    <testcase name="Edit And Delete" classname="editAndDeleteTest" time="0.01600" assertions="0">
     </testcase>
   
 
@@ -15,10 +15,10 @@
     <system-err>
         Error while running [Edit And Delete Test / Edit And Delete]:
 
-  Error: layotn was not found in &#34;editAndDelete&#34;. Available elements: companyURL,loginButton,password,salesHub,save,username,user,active,admin,AAA333,assignGroup,default,layton
+  Error: Layton was not found in &#34;editAndDelete&#34;. Available elements: companyURL,loginButton,password,salesHub,save,username,user,active,admin,cancel,defaultAlert,AAA333,assignGroup,default,layton,remove
     at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Edit And Delete (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editAndDeleteTest.js:43:18)
+    at Page.waitForElementNotPresent (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Edit And Delete (/Users/evanwright/Desktop/Automation/salesHub/salesHub/users/testing/editAndDeleteTest.js:55:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

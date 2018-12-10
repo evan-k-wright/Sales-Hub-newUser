@@ -52,6 +52,6 @@ module.exports = {
                 .click('@layton')
                 .waitForElementVisible('@remove', 5000)
                 .click('@remove')
-                .waitForElementNotPresent('@Layton', 5000)
+                .waitForElementNotPresent('@layton', 5000)
     }
 }
