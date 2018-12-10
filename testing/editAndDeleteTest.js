@@ -33,7 +33,7 @@ module.exports = {
                 .click('@default')
                 .waitForElementVisible('@defaultAlert',5000)
                 .expect.element('@defaultAlert').text.to.equal("Group set to default")
-                .waitForElementVisible('@layton', 5000)
+                editAndDelete.waitForElementVisible('@layton', 5000)
                 .click('@layton')
                 .waitForElementVisible('@admin', 5000)
                 .waitForElementVisible('@active', 5000)
@@ -49,7 +49,7 @@ module.exports = {
                 .click('@save')
                 .waitForElementVisible('@groupSavedAlert', 5000)
                 .expect.element('@groupSavedAlert').text.to.equal("Group saved")
-                .waitForElementVisible('@layton', 5000)
+                editAndDelete.waitForElementVisible('@layton', 5000)
 
             //delete group
                 // .click('@layton')
