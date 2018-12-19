@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="3">
+
+  <testsuite name="groupTest"
+    errors="1" failures="1" hostname="" id="" package="groupTest" skipped="1"
+    tests="3" time="19.02" timestamp="Tue, 18 Dec 2018 22:25:50 GMT">
+  
+    <testcase name="New User" classname="groupTest" time="13.49" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit User" classname="groupTest" time="5.531" assertions="1">  <failure message="Timed out while waiting for element &lt;input[name=&#34;first_name&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Edit User (/Users/evanwright/Desktop/automation/salesHub/salesHub/users/testing/groupTest.js:50:22)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;//a[.=&#34;AAA Saleshub&#34;]&#34; using: xpath
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Edit User (/Users/evanwright/Desktop/automation/salesHub/salesHub/users/testing/groupTest.js:49:22)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Assign Group" classname="groupTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
