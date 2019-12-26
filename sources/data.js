@@ -16,7 +16,4 @@ module.exports = {
         editFirstName: 'AAA 333',
         editLastName: 'Canvass',
         editUserPassword: 'testCan',
-
-    
-        
 }
